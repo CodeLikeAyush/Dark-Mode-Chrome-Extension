@@ -1,0 +1,21 @@
+{
+    "name": "Dark/Light Theme - Ayush Raj",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Hi folks, this extension is quite useful to view a web-page in dark theme even if it's not available in dark theme.",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Dark/Light Theme - Ayush Raj",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
